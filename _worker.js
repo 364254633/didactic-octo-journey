@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
-const พร็อกซีไอพีs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou', 'fbi.gov'];
+const พร็อกซีไอพีs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou', 'cdn.didi8.com','comicabc.com','dnschecker.org','download.yunzhongzhuan.com','edgetunnel.anycast.eu.org','edtunnel-dgp.pages.dev','fbi.gov','gur.gov.ua','icook.tw','ip.sb','ip.skk.moe','japan.com','log.bpminecraft.com','malaysia.com','mfyousheng.nl.eu.org','russia.com','singapore.com','speed.cloudflare.com','steamdb.info','tasteatlas.com','time.cloudflare.com','toy-people.com','whatismyipaddress.com','www.4chan.org','www.baipiao.eu.org','www.boba88slot.com','www.csgo.com','www.d-555.com','www.digitalocean.com','www.gco.gov.qa','www.glassdoor.com','www.gov.se','www.gov.ua','www.iakeys.com','www.ipaddress.my','www.ipchicken.com','www.ipget.net','www.iplocation.net','www.okcupid.com','www.pcmag.com','www.sean-now.com','www.shopify.com','www.udacity.com','www.udemy.com','www.visa.co.jp','www.visa.com','www.visa.com.hk','www.visa.com.sg','www.visa.com.tw','www.visakorea.com','www.whatismyip.com','www.who.int','www.whoer.net','www.wto.org','www.zsu.gov.ua','xn--b6gac.eu.org'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
